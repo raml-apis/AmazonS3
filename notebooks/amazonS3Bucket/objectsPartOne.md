@@ -47,7 +47,7 @@ HOST = (BUCKET_NAME + ".s3.amazonaws.com").toLowerCase()
 
 ```javascript
 // Read about the Amazon RAML API at https://anypoint.mulesoft.com/apiplatform/popular/admin/#/dashboard/apis/8120/versions/8316/contracts
-API.createClient('client', '/apiplatform/repository/public/organizations/30/apis/8120/versions/8316/definition',
+API.createClient('client', '#REF_TAG_DEFENITION',
                  {
   baseUriParameters:{
     bucketName: BUCKET_NAME,
