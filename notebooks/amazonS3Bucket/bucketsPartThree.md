@@ -47,7 +47,7 @@ HOST = (BUCKET_NAME + ".s3.amazonaws.com").toLowerCase()
 
 ```javascript
 // Read about the Amazon RAML API at https://anypoint.mulesoft.com/apiplatform/popular/admin/#/dashboard/apis/8120/versions/8316/contracts
-API.createClient('client', '/apiplatform/repository/public/organizations/30/apis/8120/versions/8316/definition',
+API.createClient('client', '#REF_TAG_DEFENITION_Amazon S3 Buckets:',
                  {
   baseUriParameters:{
     bucketName: BUCKET_NAME,
@@ -58,7 +58,7 @@ API.createClient('client', '/apiplatform/repository/public/organizations/30/apis
 
 ```javascript
 // Read about the Amazon S3 API (Services) at https://anypoint.mulesoft.com/apiplatform/popular/admin/#/dashboard/apis/8124/versions/8320/contracts
-API.createClient('servicesClient', '/apiplatform/repository/public/organizations/30/apis/8124/versions/8320/definition');
+API.createClient('servicesClient', '#REF_TAG_DEFENITION_Amazon S3 Services:');
 ```
 
 Auxiliary method for obtaining current date
